@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size: 50px;
+    padding: 1%;
+}
+
+.seccion-imagen img {
+    width: 100%;
+}
+
+.seccion-definicion {
+    display: flex;
+    justify-content:space-around;
+    gap: 1rem 1rem;
+}
+
+.seccion-definicion img {
+    padding: 3%;
+    width: 50%;
+    height: 237px;
+}
+
+.seccion-definicion div {
+    padding: 2% 8%;
+}
+
+.seccion-definicion div p {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.titulo {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 2.5%;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.seccion-caracteristicas {
+    display: flex;
+    justify-content:space-around;
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 2.5%;
+}
+
+.seccion-caracteristicas div {
+    width: 33%;
+}
+
+.seccion-caracteristicas div i {
+    font-size: 50px;
+    padding: 10% 0% 3%;
+}
+
+.seccion-caracteristicas div p {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.seccion-galeria {
+    padding: 5%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.seccion-galeria img {
+    width: 30%;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+}
+
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 1%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(216, 214, 214);
+}
